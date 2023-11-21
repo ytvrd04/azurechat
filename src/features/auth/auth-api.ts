@@ -26,6 +26,7 @@ const configureIdentityProvider = () => {
     );
   }
 
+  
   if (
     process.env.AZURE_AD_CLIENT_ID &&
     process.env.AZURE_AD_CLIENT_SECRET &&
